@@ -2,15 +2,15 @@
 .inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+  width: 1600px;
+  margin-left: 0;
 }
 #first{
-    width: 1600px;
     height: 92px;
     align-items: center;
     border: 1px color #FFFFFF;
-    margin: 0 auto;
+    margin: 0;
     padding: 16px 120px 16px 16px;
-    box-sizing: border-box;
 }
 .header{
     display: flex;
@@ -38,3 +38,86 @@
     padding: 12px 16px 12px 16px;
     cursor: pointer;
 }
+.second{
+    background: url(../B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 0;
+    width: 1600px;
+    height: 674px;
+}
+.second .second-box{
+    text-align: center;
+    justify-content: center;
+    padding: 70px 120px 134px 120px;
+    
+}
+.second .second-box .access-box{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: 1px solid #469165;
+    border-radius: 100px;
+    width: 229px;
+    background-color: #FFFFFF;
+    color: #469165;
+    padding: 8px 12px 8px 12px;
+}
+.second .second-box .access-box .dot-early{
+    gap: 6px;
+}
+.second .second-box .white-green .white{
+    color: #FFFFFF;
+}
+.second-box .white-green .green{
+    color: #469165;
+} 
+.second .second-box .para-box{
+    width: 1360px;
+    height: 60px;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.second .second-box .para{
+color: #FFFFFF;
+font-size: 18px;
+}
+.second .second-box .para .break{
+    display: block;
+    margin-top: 12px;
+}
+.second .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 32px;
+}
+.second .buttons .green{
+    background-color: #469165;
+    color: #FFFFFF;
+    display: flex;
+    gap: 8px;
+    font-size: 16px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    height: 52px;
+    text-align: center;
+    align-items: center;
+}
+.second .buttons .transparent{
+    background-color: transparent;
+    display: flex;
+    color: #FFFFFF;
+    gap: 8px;
+    font-size: 16;
+    padding:12px 16px;
+    border-radius: 4px;
+    height: 52px;
+    align-items: center;
+}
+
+
