@@ -37,7 +37,12 @@
     font-size: 16px;
     padding: 12px 16px 12px 16px;
     cursor: pointer;
+    font-weight: 600;
 }
+.btn:hover{
+    background-color: gray;
+}
+
 .second{
     background: url(../B13-A01-Knowledge-Vault/assets/hero-bg.png);
     background-repeat: no-repeat;
@@ -96,6 +101,7 @@ font-size: 18px;
     gap: 16px;
     margin-top: 32px;
 }
+
 .second .buttons .green{
     background-color: #469165;
     color: #FFFFFF;
@@ -105,8 +111,13 @@ font-size: 18px;
     padding: 12px 16px;
     border-radius: 4px;
     height: 52px;
+    width: ;
     text-align: center;
     align-items: center;
+    cursor: pointer;
+}
+.second .buttons .green:hover{
+    background-color: grey;
 }
 .second .buttons .transparent{
     background-color: transparent;
@@ -118,6 +129,10 @@ font-size: 18px;
     border-radius: 4px;
     height: 52px;
     align-items: center;
+    cursor: pointer;
+}
+.second .buttons .transparent:hover{
+    background-color: gray;
 }
 .third {
     border-width: 1360px;
@@ -333,6 +348,10 @@ font-size: 18px;
     padding: 12px 16px 12px 16px;
     font-size: 16px;
     font font-weight: 600;
+    cursor: pointer;
+}
+.last .lastbtn:hover{
+    background-color: gray;
 }
 .last .lastf {
     display: flex;
@@ -341,4 +360,62 @@ font-size: 18px;
     font-weight: 400;
     text-align: center;
     margin-top: 16px;
+}
+
+
+.foot{
+    width: 1400px;
+    height: 348px;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 120px 30px 120px;
+    border: 1px solid #001931;
+    background-color: #001931;
+}
+.foot .footer1container{
+    width: 1340px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.foot .footer1container .footimg{
+    width: 139px;
+    height: 60px;
+}
+.foot .footer1container .links .socialtitle{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.foot .footer1container .links .li{
+    list-style: none;
+    display: flex;
+    color: #FFFFFF;
+    gap: 16px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.foot .foot2{
+    width: 1360px;
+    height: 54px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 190px;
+}
+.foot .foot2 .line hr{
+    width: 1360px;
+    height: 0px;
+  border: 1px solid #E5E7EB;
+  opacity: 0.2;
+
+}
+.small{
+    color: #FAFAFA;
+    text-align: center;
 }
