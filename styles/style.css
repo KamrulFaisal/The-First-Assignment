@@ -119,5 +119,132 @@ font-size: 18px;
     height: 52px;
     align-items: center;
 }
+.third {
+    border-width: 1360px;
+    align-items: center;
+    text-align: center;
+}
+.third .text{
+    
+}
+.third .text .text1{
+    color: 001931;
+    font-size: 48px;
+    font-weight: 700px;
+    text-align: center;
 
+}
+.third .text .text2{
+    height: 20px;
+    color: #627382;
+    font-size: 16px;
+}
+
+.fourth {
+    width: 1360px;
+    height: 300px;
+    align-items: center;
+    padding: 120px;
+}
+.fourth .container{
+    display: flex;
+    gap: 24px;
+    margin-top: 44px;
+}
+
+.fourth .card-1{
+    display: flex;
+    flex-direction: column;
+    width: 322px;
+    height: 300px;
+    align-items: center;
+    gap: 16px;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 8px 0px;
+}
+.fourth .container .card-1 .pic1{
+    border: 1px solid #F95555;
+    padding: 32px 32px;
+    border-radius: 50%;
+    background-color: #F95555;
+}
+.fourth .container .card-1 .font{
+    font-size: 24px;
+}
+
+.fourth .card-2{
+    display: flex;
+    flex-direction: column;
+    width: 322px;
+    height: 300px;
+    align-items: center;
+    gap: 16px;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 8px 0px;
+}
+.fourth .container .card-2 .pic2{
+    border: 1px solid #F95555;
+    padding: 32px 32px;
+    border-radius: 50%;
+    background-color: #F95555;
+}
+.fourth .container .card-2 .font{
+    font-size: 24px;
+}
+
+.fourth .card-3{
+    display: flex;
+    flex-direction: column;
+    width: 322px;
+    height: 300px;
+    align-items: center;
+    gap: 16px;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 8px 0px;
+}
+.fourth .container .card-3 .pic3{
+    border: 1px solid #F95555;
+    padding: 32px 32px;
+    border-radius: 50%;
+    background-color: #F95555;
+}
+.fourth .container .card-3 .font{
+    font-size: 24px;
+}
+
+.fourth .card-4{
+    display: flex;
+    flex-direction: column;
+    width: 322px;
+    height: 300px;
+    align-items: center;
+    gap: 16px;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 8px 0px;
+}
+.fourth .container .card-4 .pic4{
+    border: 1px solid #F95555;
+    padding: 32px 32px;
+    border-radius: 50%;
+    background-color: #F95555;
+}
+.fourth .container .card-4 .font{
+    font-size: 24px;
+}
 
